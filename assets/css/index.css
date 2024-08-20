@@ -100,37 +100,6 @@
         transform: translate(1px, -2px);
     }
 
-    /* Data confirmation modal style */
-    #modalConfirmation {
-        display: none;
-        position: absolute;
-        background-color: var(--gi-white);
-        padding: 5%;
-        margin: 2% 25%;
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    }
-
-    #modalConfirmation h4 {
-        font-size: 13px;
-        margin: 5px 0px;
-    }
-
-    #modalConfirmation .paragraph {
-        margin: 15px 0px;
-    }
-
-    #modalConfirmation .content-paragraph {
-        font-size: 12px;
-        text-align: justify;
-    }
-
-    #closeModalConfirmation {
-        position: absolute;
-        top: 15px;
-        right: 15px;
-        cursor: pointer;
-    }
-
     /* For not open the link while the checkbox isn't checked */
     .disabled-link {
         color: var(--gi-gray);
@@ -139,6 +108,7 @@
         cursor: not-allowed;
     }
 
+    /* Help Icon */
     #help {
         width: min-content;
         height: min-content;
@@ -148,7 +118,7 @@
         flex-direction: row-reverse;
         cursor: pointer;
         color: var(--gi-black);
-        position: absolute;
+        position: fixed;
         right: 5%;
         bottom: 2%;
         padding: 1px;
@@ -253,37 +223,6 @@
         transform: translate(1px, -2px);
     }
 
-    /* Data confirmation modal style */
-    #modalConfirmation {
-        display: none;
-        position: absolute;
-        background-color: var(--gi-white);
-        padding: 5%;
-        margin: 2% 25%;
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    }
-
-    #modalConfirmation h4 {
-        font-size: 13px;
-        margin: 5px 0px;
-    }
-
-    #modalConfirmation .paragraph {
-        margin: 15px 0px;
-    }
-
-    #modalConfirmation .content-paragraph {
-        font-size: 12px;
-        text-align: justify;
-    }
-
-    #closeModalConfirmation {
-        position: absolute;
-        top: 15px;
-        right: 15px;
-        cursor: pointer;
-    }
-
     /* For not open the link while the checkbox isn't checked */
     .disabled-link {
         color: var(--gi-gray);
@@ -292,6 +231,7 @@
         cursor: not-allowed;
     }
 
+    /* Help Icon */
     #help {
         width: min-content;
         height: min-content;
@@ -301,7 +241,7 @@
         flex-direction: row-reverse;
         cursor: pointer;
         color: var(--gi-black);
-        position: absolute;
+        position: fixed;
         right: 5%;
         bottom: 10%;
         padding: 1px;
@@ -406,37 +346,6 @@
         transform: translate(1px, -2px);
     }
 
-    /* Data confirmation modal style */
-    #modalConfirmation {
-        display: none;
-        position: absolute;
-        background-color: var(--gi-white);
-        padding: 5%;
-        margin: 2% 25%;
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    }
-
-    #modalConfirmation h4 {
-        font-size: 13px;
-        margin: 5px 0px;
-    }
-
-    #modalConfirmation .paragraph {
-        margin: 15px 0px;
-    }
-
-    #modalConfirmation .content-paragraph {
-        font-size: 12px;
-        text-align: justify;
-    }
-
-    #closeModalConfirmation {
-        position: absolute;
-        top: 15px;
-        right: 15px;
-        cursor: pointer;
-    }
-
     /* For not open the link while the checkbox isn't checked */
     .disabled-link {
         color: var(--gi-gray);
@@ -445,6 +354,7 @@
         cursor: not-allowed;
     }
 
+    /* Help Icon */
     #help {
         width: min-content;
         height: min-content;
@@ -454,7 +364,7 @@
         flex-direction: row-reverse;
         cursor: pointer;
         color: var(--gi-black);
-        position: absolute;
+        position: fixed;
         right: 5%;
         bottom: 10%;
         padding: 1px;

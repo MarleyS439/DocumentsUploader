@@ -1,1 +1,112 @@
+/* Import Default Styles */
 @import url(default.css);
+
+/* Stylesheet for Mobile Devices */
+@media screen and (max-width: 768px) {
+    /* Data confirmation modal style */
+    #modalConfirmation {
+        display: none;
+        position: absolute;
+        background-color: var(--gi-white);
+        padding: 10% 5%;
+        margin: 2% 10%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        overflow-y: scroll;
+        height: 100vh;
+        margin-bottom: 15px;
+    }
+
+    #modalConfirmation h4 {
+        font-size: 13px;
+        margin: 5px 0px;
+    }
+
+    #modalConfirmation .paragraph {
+        margin: 15px 0px;
+    }
+
+    #modalConfirmation .content-paragraph {
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    #closeModalConfirmation {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        cursor: pointer;
+    }
+}
+
+/* Stylesheet for Medium Devices - Tablets */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Data confirmation modal style */
+    #modalConfirmation {
+        display: none;
+        position: absolute;
+        background-color: var(--gi-white);
+        padding: 2%;
+        margin: 2% 10%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        overflow-y: scroll;
+        height: 100vh;
+        margin-bottom: 15px;
+    }
+
+    #modalConfirmation h4 {
+        font-size: 13px;
+        margin: 5px 0px;
+    }
+
+    #modalConfirmation .paragraph {
+        margin: 15px 0px;
+    }
+
+    #modalConfirmation .content-paragraph {
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    #closeModalConfirmation {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        cursor: pointer;
+    }
+}
+
+/* Stylesheet for Desktop Devices */
+@media screen and (min-width: 1024px) {
+    /* Data confirmation modal style */
+    #modalConfirmation {
+        display: none;
+        position: absolute;
+        background-color: var(--gi-white);
+        padding: 3%;
+        margin: 2% 20%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        overflow-y: scroll;
+        height: 100vh;
+    }
+
+    #modalConfirmation h4 {
+        font-size: 13px;
+        margin: 5px 0px;
+    }
+
+    #modalConfirmation .paragraph {
+        margin: 15px 0px;
+    }
+
+    #modalConfirmation .content-paragraph {
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    #closeModalConfirmation {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        cursor: pointer;
+    }
+}

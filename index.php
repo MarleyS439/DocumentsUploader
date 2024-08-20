@@ -41,7 +41,7 @@
 				<div class="input-unique">
 					<input type="checkbox" id="confirm">
 					<p>Concordo com os
-						<span id="terms">Termos e Condições</span>
+						<span id="terms" title="Leia as Condições e Termos">Termos e Condições</span>
 					</p>
 				</div>
 			</form>

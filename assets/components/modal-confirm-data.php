@@ -1,5 +1,5 @@
 <div class="modal-confirmation" id="modalConfirmation">
-    <span id="closeModalConfirmation">Fechar</span>
+    <span id="closeModalConfirmation" title="Fechar Condições e Termos">Fechar</span>
 
     <h3>Termo de Consentimento para Coleta e Tratamento de Dados Pessoais
     </h3>
