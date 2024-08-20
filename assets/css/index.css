@@ -1,1 +1,147 @@
+/* Import Default Styles */
 @import url(default.css);
+
+/* CSS Components */
+@import url(modal-confirm-data.css);
+
+/* Stylesheet for Mobile Devices */
+@media screen and (max-width: 768px) {
+    /* Body color */
+    body {
+        background-color: var(--gi-white);
+    }
+}
+
+/* Stylesheet for Medium Devices - Tablets */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Body color */
+    body {
+        background-color: var(--gi-white);
+    }
+}
+
+/* Stylesheet for Desktop Devices */
+@media screen and (min-width: 1024px) {
+    /* Body color */
+    body {
+        background-color: var(--gi-white);
+    }
+
+    /* Initial info */
+    .info-container {
+        padding: 2% 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .info-container h1 {
+        padding: 20px 5px;
+    }
+
+    .info-container p {
+        margin: 15px 0px;
+        padding: 15px;
+        text-align: center;
+    }
+
+    /* Documents List */
+    .list li {
+        margin: 5px 0px;
+    }
+
+    /* Confirm box to go to form */
+    .confirm {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 10%;
+        text-align: center;
+    }
+
+    #terms {
+        color: var(--gi-brown);
+        cursor: pointer;
+    }
+
+    .input-unique {
+        display: flex;
+    }
+
+    .input-unique input {
+        margin: 0px 5px;
+    }
+
+    /* Button for access the form */
+    .access-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2%;
+        width: 100%;
+    }
+
+    .access-btn a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--gi-white);
+        text-decoration: none;
+        padding: 15px 45px;
+        background-color: var(--gi-black);
+    }
+
+    .access-btn a img {
+        width: 20px;
+        height: 20px;
+        transition: 200ms ease-in-out;
+    }
+
+    .access-btn a span {
+        margin: 0px 5px;
+    }
+
+    .access-btn a:hover > img {
+        transform: translate(1px, -2px);
+    }
+
+    /* Data confirmation modal style */
+    #modalConfirmation {
+        display: none;
+        position: absolute;
+        background-color: var(--gi-white);
+        padding: 5%;
+        margin: 2% 25%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    #modalConfirmation h4 {
+        font-size: 13px;
+        margin: 5px 0px;
+    }
+
+    #modalConfirmation .paragraph {
+        margin: 15px 0px;
+    }
+
+    #modalConfirmation .content-paragraph {
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    #closeModalConfirmation {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        cursor: pointer;
+    }
+
+    /* For not open the link while the checkbox isn't checked */
+    .disabled-link {
+        color: var(--gi-gray);
+        pointer-events: none;
+        text-decoration: none;
+        cursor: not-allowed;
+    }
+}

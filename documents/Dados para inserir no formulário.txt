@@ -1,0 +1,69 @@
+Informações pessoais
+
+Nome completo
+Sexo
+Data de Nascimento
+CPF
+RG
+Estado de emissão do RG
+Nacionalidade
+Naturalidade
+Nome da mãe
+Nome do pai
+Estado civil
+Grau de instrução
+E-mail
+Celular
+Documento de Identidade
+Comprovante de Estado Civil
+
+Informações do Cônjuge
+
+Nome do cônjuge
+Ano de casamento
+Sexo do cônjuge
+CPF do cônjuge
+RG do cônjuge
+E-mail do cônjuge
+Celular do cônjuge
+Documento de Identidade do Cônjuge
+
+
+
+Informações de Endereço
+
+Imóvel atual: Imóvel alugado | Imóvel Próprio | Cedido 
+Logradouro
+Número
+Bairro
+Cidade
+Estado
+CEP
+Complemento
+
+Informações Financeiras
+
+Possui veículo: Sim | Não
+Modelo/Ano
+Quitado: Sim | Não
+Valor de parcela
+Quantidade de parcelas à vencer
+Tipo de renda: Formal | Informal
+Profissão
+Cargo
+Tempo no cargo
+Tempo de empresa
+
+Data de vencimento de aluguel
+
+Referências
+Nome
+Celular
+
+Nome
+Celular
+
+Nome
+Celular
+
+
