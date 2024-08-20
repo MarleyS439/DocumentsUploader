@@ -6,6 +6,9 @@
 	<meta name="viewport" content="width=device-width, intial-scale=1">
 	<meta name="author" content="Marley de S. Santos">
 
+	<!-- Favicon -->
+	<link rel="icon" type="image/x-icon" href="assets/icons/favicon.ico">
+
 	<title>Envio de Documentos</title>
 
 	<link rel="stylesheet" type="text/css" href="assets/css/index.css">
@@ -52,8 +55,18 @@
 		</div>
 	</main>
 
+
+	<div class="help" id="help" title="Precisa de ajuda?">
+	    <span>Ajuda</span>
+        <img src="assets/icons/helpIcon.svg" alt="">
+	</div>
+
 	<footer></footer>
 
+	<!-- Help dialog -->
+	<script type="text/javascript" src="assets/javascript/help.js"></script>
+
+	<!-- Modal confirm data -->
 	<script type="text/javascript" src="assets/javascript/modal-confirm-data.js"></script>
 </body>
 

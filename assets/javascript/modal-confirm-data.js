@@ -26,7 +26,9 @@ const link = document.getElementById("goToForm");
 checkbox.addEventListener("change", function () {
   if (checkbox.checked) {
     link.classList.remove("disabled-link");
+    link.title = "Abrir o formulário";
   } else {
     link.classList.add("disabled-link");
+    link.title = "Por favor, marque a caixa de seleção acima";
   }
 });
