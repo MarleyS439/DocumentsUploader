@@ -1,0 +1,222 @@
+/* Import Default Styles */
+@import url(default.css);
+
+/* Stylesheet for Mobile Devices */
+@media screen and (max-width: 768px) {
+    /* Dialog container when is open */
+    .dialog-container {
+        display: none;
+        position: absolute;
+        width: 80vw;
+        height: min-content;
+        background-color: var(--gi-white);
+        padding: 15px;
+        right: 5%;
+        bottom: 10%;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px;
+    }
+
+    .title-dialog-container {
+        border-bottom: 1px solid var(--gi-black);
+    }
+
+    .title-dialog-container h4 {
+        margin: 5px 0px;
+    }
+
+    .items ul li {
+        list-style: none;
+        margin: 8px 0px;
+    }
+
+    .content-items a:hover {
+        text-decoration: underline;
+    }
+
+    .items ul li h5 {
+        margin: 5px 0px;
+    }
+
+    .content-items {
+        height: min-content;
+    }
+
+    .content-items a img {
+        width: 20px;
+        height: 20px;
+        margin: 0px 5px;
+        transition: 200ms ease-in-out;
+    }
+
+    .content-items a:hover > img {
+        transform: translate(2px, 0px);
+    }
+
+    .content-items a {
+        text-decoration: none;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        color: var(--gi-black);
+        padding: 5px;
+    }
+
+    /* Close icon */
+    #closeIcon {
+        position: absolute;
+        top: 16px;
+        right: 10px;
+        cursor: pointer;
+    }
+
+    #closeIcon img {
+        width: 22px;
+        height: 22px;
+    }
+}
+
+/* Stylesheet for Medium Devices - Tablets */
+@media screen and (min-width: 768px) and (max-width: 1024px); {
+    /* Dialog container when is open */
+    .dialog-container {
+        display: none;
+        position: absolute;
+        width: 20vw;
+        height: min-content;
+        padding: 15px;
+        right: 5%;
+        bottom: 20%;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px;
+    }
+
+    .title-dialog-container {
+        border-bottom: 1px solid var(--gi-black);
+    }
+
+    .title-dialog-container h4 {
+        margin: 5px 0px;
+    }
+
+    .items ul li {
+        list-style: none;
+        margin: 8px 0px;
+    }
+
+    .content-items a:hover {
+        text-decoration: underline;
+    }
+
+    .items ul li h5 {
+        margin: 5px 0px;
+    }
+
+    .content-items {
+        height: min-content;
+    }
+
+    .content-items a img {
+        width: 20px;
+        height: 20px;
+        margin: 0px 5px;
+        transition: 200ms ease-in-out;
+    }
+
+    .content-items a:hover > img {
+        transform: translate(2px, 0px);
+    }
+
+    .content-items a {
+        text-decoration: none;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        color: var(--gi-black);
+        padding: 5px;
+    }
+
+    /* Close icon */
+    #closeIcon {
+        position: absolute;
+        top: 16px;
+        right: 10px;
+        cursor: pointer;
+    }
+
+    #closeIcon img {
+        width: 22px;
+        height: 22px;
+    }
+}
+
+/* Stylesheet for Desktop Devices */
+@media screen and (min-width: 1024px) {
+
+    /* Dialog container when is open */
+    .dialog-container {
+        display: none;
+        position: absolute;
+        width: 20vw;
+        height: min-content;
+        padding: 15px;
+        right: 5%;
+        bottom: 20%;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px;
+    }
+
+    .title-dialog-container {
+        border-bottom: 1px solid var(--gi-black);
+    }
+
+    .title-dialog-container h4 {
+        margin: 5px 0px;
+    }
+
+    .items ul li {
+        list-style: none;
+        margin: 8px 0px;
+    }
+
+    .content-items a:hover {
+        text-decoration: underline;
+    }
+
+    .items ul li h5 {
+        margin: 5px 0px;
+    }
+
+    .content-items {
+        height: min-content;
+    }
+
+    .content-items a img {
+        width: 20px;
+        height: auto;
+        margin: 0px 5px;
+        transition: 200ms ease-in-out;
+    }
+
+    .content-items a:hover > img {
+        transform: translate(2px, 0px);
+    }
+
+    .content-items a {
+        text-decoration: none;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        color: var(--gi-black);
+        padding: 5px;
+    }
+
+    /* Close icon */
+    #closeIcon {
+        position: absolute;
+        top: 16px;
+        right: 10px;
+        cursor: pointer;
+    }
+
+    #closeIcon img {
+        width: 22px;
+    }
+}

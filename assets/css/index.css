@@ -3,6 +3,7 @@
 
 /* CSS Components */
 @import url(modal-confirm-data.css);
+@import url(dialog-box.css);
 
 /* Stylesheet for Mobile Devices */
 @media screen and (max-width: 768px) {
@@ -281,7 +282,7 @@
     }
 
     .info-container p {
-        margin: 15px 0px;
+        margin: 15px 25%;
         padding: 15px;
         text-align: center;
     }

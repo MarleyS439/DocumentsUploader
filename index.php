@@ -19,10 +19,13 @@
 	<!-- Data confirmation modal -->
 	<?php include "assets/components/modal-confirm-data.php"; ?>
 
+	<!-- Dialog box for help -->
+	<?php include "assets/components/dialog-box.php"; ?>
+
 	<header>
 		<div class="info-container">
 			<h1>Formulário de Análise de Crédito</h1>
-			<p class="">Este formulário visa a coleta de dados e documentos para fins de <strong>Avaliação de Crédito para Locação de Imóvel.</strong><br><br><strong>Tenha consigo alguns documentos</strong></p>
+			<p class="information">Este formulário visa a coleta de dados e documentos para fins de <strong id="stg">Avaliação de Crédito para Locação de Imóvel.</strong><br><br><strong>Tenha consigo alguns documentos</strong></p>
 
 			<ul class="list">
 				<li>Documento de Identidade com RG e CPF</li>
