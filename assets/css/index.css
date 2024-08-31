@@ -308,10 +308,14 @@
 
     .input-unique {
         display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .input-unique input {
         margin: 0px 5px;
+        height: 18px;
+        width: 18px;
     }
 
     /* Button for access the form */
