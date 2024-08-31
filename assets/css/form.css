@@ -11,6 +11,18 @@
 
 /* Stylesheet for Desktop Devices */
 @media screen and (min-width: 1024px) {
-    body {
+    .container-form {
+        border: 1px solid red;
+        padding: 5%;
+    }
+
+    .title-form {
+        display: flex;
+        justify-content: center;
+    }
+
+    .title-form h2 {
+        border: 1px solid red;
+        padding: 15px;
     }
 }
