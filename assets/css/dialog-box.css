@@ -6,7 +6,6 @@
 
 /* Stylesheet for Mobile Devices */
 @media screen and (max-width: 768px) {
-
     /* Dialog container when is open */
     .dialog-container {
         display: none;
@@ -18,8 +17,10 @@
         right: 5%;
         bottom: 10%;
         box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px;
-        -webkit-animation: tilt-in-bottom-1 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-        animation: tilt-in-bottom-1 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        -webkit-animation: tilt-in-bottom-1 0.2s
+            cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+        animation: tilt-in-bottom-1 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+            both;
     }
 
     .title-dialog-container {
@@ -45,17 +46,6 @@
 
     .content-items {
         height: min-content;
-    }
-
-    .content-items a img {
-        width: 20px;
-        height: 20px;
-        margin: 0px 5px;
-        transition: 200ms ease-in-out;
-    }
-
-    .content-items a:hover>img {
-        transform: translate(2px, 0px);
     }
 
     .content-items a {
@@ -83,8 +73,6 @@
 
 /* Stylesheet for Medium Devices - Tablets */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-
-
     /* Dialog container when is open */
     .dialog-container {
         display: none;
@@ -95,8 +83,10 @@
         right: 5%;
         bottom: 20%;
         box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px;
-        -webkit-animation: tilt-in-bottom-1 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-        animation: tilt-in-bottom-1 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        -webkit-animation: tilt-in-bottom-1 0.2s
+            cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+        animation: tilt-in-bottom-1 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+            both;
     }
 
     .title-dialog-container {
@@ -131,7 +121,7 @@
         transition: 200ms ease-in-out;
     }
 
-    .content-items a:hover>img {
+    .content-items a:hover > img {
         transform: translate(2px, 0px);
     }
 
@@ -160,7 +150,6 @@
 
 /* Stylesheet for Desktop Devices */
 @media screen and (min-width: 1024px) {
-
     /* Dialog container when is open */
     .dialog-container {
         display: none;
@@ -171,8 +160,10 @@
         right: 5%;
         bottom: 20%;
         box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px;
-        -webkit-animation: tilt-in-bottom-1 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-        animation: tilt-in-bottom-1 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        -webkit-animation: tilt-in-bottom-1 0.2s
+            cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+        animation: tilt-in-bottom-1 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+            both;
     }
 
     .title-dialog-container {
@@ -207,7 +198,7 @@
         transition: 200ms ease-in-out;
     }
 
-    .content-items a:hover>img {
+    .content-items a:hover > img {
         transform: translate(2px, 0px);
     }
 

@@ -12,7 +12,6 @@
                 <h5>Formatos  e tipos de documentos</h5>
                 <div class="content-items">
                     <a href="#" class="content-items-p">Quais os documentos que são aceitos e seus formatos
-                    <img src="assets/icons/nextIcon.svg" alt="">
                     </a>
                 </div>
             </li>
@@ -21,7 +20,6 @@
                 <h5>Item</h5>
                 <div class="content-items">
                     <a href="#" class="content-items-p">Fazer upload de arquivos
-                    <img src="assets/icons/nextIcon.svg" alt="">
                     </a>
                 </div>
             </li>
@@ -30,7 +28,6 @@
                 <h5>Item</h5>
                 <div class="content-items">
                     <a href="#" class="content-items-p">Fazer upload de arquivos
-                    <img src="assets/icons/nextIcon.svg" alt="">
                     </a>
                 </div>
             </li>
@@ -39,7 +36,6 @@
                 <h5>Envio de documentos</h5>
                 <div class="content-items">
                     <a href="#" class="content-items-p">Como fazer o envio dos documentos
-                    <img src="assets/icons/nextIcon.svg" alt="">
                     </a>
                 </div>
             </li>
@@ -48,7 +44,6 @@
                 <h5>Item</h5>
                 <div class="content-items">
                     <a href="#" class="content-items-p">Fazer upload de arquivos
-                    <img src="assets/icons/nextIcon.svg" alt="">
                     </a>
                 </div>
             </li>
